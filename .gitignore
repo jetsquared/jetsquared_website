@@ -9,6 +9,7 @@
 # production
 /build
 /production
+/public/*.pdf
 
 # misc
 .DS_Store
