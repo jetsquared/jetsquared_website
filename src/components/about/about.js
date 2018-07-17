@@ -44,7 +44,7 @@ class About extends Component {
             &emsp;<small>
               <strong>
                 Click the&nbsp;{" "}
-                <a href="/James_Taylor_jetsquared_resume.pdf">
+                <a href="/James_Taylor_jetsquared_resume.pdf" download>
                   <i className="far fa-file-pdf" />
                 </a>{" "}
                 &nbsp;to download a PDF of my résumé.

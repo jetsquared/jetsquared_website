@@ -51,7 +51,7 @@ class SideNav extends Component {
         <NavbarBrand href="/" className="ml-auto d-block d-lg-none">
           jetsquared
         </NavbarBrand>
-        <NavbarToggler  right onClick={this.toggle} />
+        <NavbarToggler onClick={this.toggle} />
         <NavItem>
           <NavLink className="navbar-brand js-scroll-trigger" href="#page-top">
             <span className="d-none d-lg-block">
