@@ -5,15 +5,16 @@ import { default as socialItems } from "./socialItems";
 class About extends Component {
   render() {
     return (
-      <section className="resume-section p-3 p-lg-5 d-flex d-column mobile-fix" id="about">
+      <section
+        className="resume-section p-3 p-lg-5 d-flex d-column mobile-fix"
+        id="about"
+      >
         <div className="my-auto">
           <div className="d-sm-none d-xs-block jumbo-text mb-3">
             <h1>
               <span className="text-primary mb-0 pb-0 pt-0 ">James</span>
             </h1>
-            <h1>
-              &nbsp;E.
-            </h1>
+            <h1>&nbsp;E.</h1>
             <h1>&nbsp;&nbsp;Taylor II</h1>
           </div>
           <span className="d-none d-sm-block">
@@ -24,7 +25,8 @@ class About extends Component {
           </span>
           <div className="subheading mb-3">
             <span className="d-none d-sm-block">
-              <strong>contact me:</strong>&nbsp;<br className="d-sm-none d-xs-block" />james at jetsquared dot com
+              <strong>contact me:</strong>&nbsp;<br className="d-sm-none d-xs-block" />james
+              at jetsquared dot com
             </span>
             <span className="d-sm-none d-block">
               <strong>contact me:</strong>&nbsp;<br className="d-sm-none d-xs-block" />
@@ -39,18 +41,37 @@ class About extends Component {
           </p>
           <div className="mb-5">
             <SocialList items={socialItems} />
+            &emsp;<small>
+              <strong>
+                Click the&nbsp;{" "}
+                <a href="/James_Taylor_jetsquared_resume.pdf">
+                  <i className="far fa-file-pdf" />
+                </a>{" "}
+                &nbsp;to download a PDF of my résumé.
+              </strong>
+            </small>
           </div>
 
           <div className="subheading mb-2">This Site</div>
           <div className="mb-2">
-            Was built using&nbsp;
-            <a
+            Built with:
+            <br />
+            &emsp;<a
               target="_blank"
               rel="noopener noreferrer"
               href="https://reactjs.org"
             >
               <i className="fab fa-react fa-lg" />&nbsp;reactjs
-            </a>&nbsp; go learn more about it.
+            </a>&nbsp; (go learn more about it!)
+            <br />
+            &emsp;<a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://getbootstrap.com/"
+            >
+              <i className="devicons devicons-bootstrap fa-lg" />
+              &nbsp;Bootstrap 4
+            </a>
           </div>
           <div className="mb-2">
             View the source&nbsp;<code>

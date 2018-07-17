@@ -18,6 +18,11 @@ var socialItems = [
     id: 3,
     aLink: "https://github.com/jetsquared",
     iconName: "fa-github"
+  },
+  {
+    id: 4,
+    aLink: "/James_Taylor_jetsquared_resume.pdf",
+    iconName: "far fa-file-pdf"
   }
 ];
 
