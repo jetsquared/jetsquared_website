@@ -9,7 +9,6 @@ import {
   NavbarToggler
 } from "reactstrap";
 import profile_pic from "../../img/profile.jpg";
-window.reactstrap = require('reactstrap/dist/reactstrap.full.js')
 
 class SideNav extends Component {
   constructor(props) {

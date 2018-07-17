@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "production": "react-scripts build && mv build /var/www/html/"
+    "production": "react-scripts build && mv build production/"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.1.4"
