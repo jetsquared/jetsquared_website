@@ -57,7 +57,7 @@ class About extends Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/jetsquared"
+                href="https://github.com/jetsquared/jetsquared_website"
               >
                 code
               </a>
@@ -65,7 +65,7 @@ class About extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/jetsquared"
+              href="https://github.com/jetsquared/jetsquared_website"
             >
               <i className="fab fa-github fa-lg" />&nbsp;jetsquared
             </a>.
