@@ -29,7 +29,7 @@ class Education extends Component {
             <div className="resume-content mr-auto">
               <h3 className="mb-0">Southern Polytechnic State University</h3>
               <div className="subheading mb-0">Bachelor of Science</div>
-              <h5 className="mb-0">Marrietta, GA</h5>
+              <h5 className="mb-0">Marietta, GA</h5>
               <div>
                 Computer Science <br />
                 Minors: Software Engineering &amp; Information Technology

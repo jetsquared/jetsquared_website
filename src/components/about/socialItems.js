@@ -21,9 +21,9 @@ var socialItems = [
   },
   {
     id: 4,
-    aLink: "/James_Taylor_jetsquared_resume.pdf",
+    aLink: "/James_Taylor_resume.pdf",
     iconName: "far fa-file-pdf",
-    download: 'James_Taylor_jetsquared_resume'
+    download: 'James_Taylor_resume'
   }
 ];
 

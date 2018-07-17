@@ -43,10 +43,10 @@ class About extends Component {
             <SocialList items={socialItems} />
             &emsp;<small>
               <strong>
-                Click the&nbsp;{" "}
-                <a href="/James_Taylor_jetsquared_resume.pdf" download>
+                Click the&nbsp;
+                <a href="/James_Taylor_resume.pdf" download>
                   <i className="far fa-file-pdf" />
-                </a>{" "}
+                </a>
                 &nbsp;to download a PDF of my résumé.
               </strong>
             </small>
